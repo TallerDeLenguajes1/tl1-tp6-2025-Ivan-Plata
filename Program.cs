@@ -41,3 +41,24 @@ switch (operacion)
         Console.WriteLine("Resultado: " + resultado);
         break;
 }
+
+//------------------CALCULADORA 2-------------------
+
+Console.Write("Ingrese un numero: ");
+float numero = float.Parse(Console.ReadLine());
+
+
+Console.WriteLine(Math.Abs(numero));
+Console.WriteLine(numero * numero);
+Console.WriteLine(Math.Sqrt(numero));
+Console.WriteLine(Math.Sin(numero));
+Console.WriteLine(Math.Cos(numero));
+Console.WriteLine((int)numero);
+
+Console.Write("Ingrese el primer numero: ");
+float N1 = float.Parse(Console.ReadLine());
+Console.Write("Ingrese el segundo numero: ");
+float N2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("El maximo es: " + Math.Max(N1, N2));
+Console.WriteLine("El minimo es: " + Math.Min(N1, N2));
